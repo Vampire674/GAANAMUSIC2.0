@@ -29,21 +29,21 @@ async def start(_, msg):
           InlineKeyboardButton("𝗔ᴅᴅ ᴍᴇ 𝗠ᴀʙʏ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("❍𝐒ʏsᴛᴇᴍ 𝐌ᴜsɪᴄ❍", url="https://t.me/SYSTEM_BOT_UPDATE"),
-          InlineKeyboardButton("❛-Ɱɽ ⌯ 𝐁ᴀᴅ֟፝ɴᴀᴍ᭄↝𝐱𝐃", url="https://t.me/lll_BADNAM_BABY_lll"),
+          InlineKeyboardButton("𝐒ʏsᴛᴇᴍ 𝐌ᴜsɪᴄ", url="https://t.me/SYSTEM_BOT_UPDATE"),
+          InlineKeyboardButton(" 𝐁ᴀᴅ֟፝ɴᴀᴍ↝𝐱𝐃", url="https://t.me/lll_BADNAM_BABY_lll"),
           ],
                [
-                InlineKeyboardButton("❍𝐒ʏsᴛᴇᴍ 𝐌ᴜsɪᴄ❍", url=f"https://t.me/SYSTEM_BOT_UPDATE"),
+                InlineKeyboardButton("𝐒ʏsᴛᴇᴍ 𝐌ᴜsɪᴄ", url=f"https://t.me/SYSTEM_BOT_UPDATE"),
 ],
 [
-InlineKeyboardButton("𝗠ᴀɪɴ 𝗕ᴏᴛ", url=f"@system_music_prorobot"),
+InlineKeyboardButton("𝗠ᴀɪɴ 𝗕ᴏᴛ", url=f"system_music_prorobot"),
 
         ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://files.catbox.moe/9nq6hd.jpg",
+        photo="https://files.catbox.moe/rdrf1h.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
