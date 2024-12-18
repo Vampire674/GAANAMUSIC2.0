@@ -76,10 +76,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="❍𝐎ᴡɴᴇʀ❍", url="https://t.me/SYSTEM_BOT_UPDATE",
+                text="ᴜᴘᴅᴧᴛᴇ", url="https://t.me/SYSTEM_BOT_UPDATE",
             ),
             InlineKeyboardButton(
-                text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/SYSTEM_SUPPROT_GROUP",
+                text="sᴜᴘᴘᴏꝛᴛ", url="https://t.me/SYSTEM_SUPPROT_GROUP",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -99,10 +99,10 @@ def stream_markup(_, videoid, chat_id):
          ],
         [
             InlineKeyboardButton(
-                text="❍𝐎ᴡɴᴇʀ❍", url="https://t.me/SYSTEM_BOT_UPDATE",
+                text="ᴜᴘᴅᴧᴛᴇ", url="https://t.me/SYSTEM_BOT_UPDATE",
             ),
             InlineKeyboardButton(
-                text="❍𝐒ᴜᴘᴘᴏʀᴛ❍", url="https://t.me/SYSTEM_SUPPROT_GROUP",
+                text="sᴜᴘᴘᴏꝛᴛ", url="https://t.me/SYSTEM_SUPPROT_GROUP",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
