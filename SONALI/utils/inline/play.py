@@ -76,10 +76,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
       [
             InlineKeyboardButton(
-                text="ᴜᴘᴅᴧᴛᴇ", url="https://t.me/+KtH8HHCPn_JiZmY1",
+                text="ᴜᴘᴅᴧᴛᴇ", url="https://t.me/friends_kiDuniya",
             ),
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏꝛᴛ", url="https://t.me/+Ntz9If3ZVbpjZWQ1",
+                text="sᴜᴘᴘᴏꝛᴛ", url="https://t.me/friends_kiDuniya",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -91,18 +91,18 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 def stream_markup(_, videoid, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="ʀᴇsᴜᴍᴇ ", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
             InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="ѕкιρ", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
         [
             InlineKeyboardButton(
-                text="ᴜᴘᴅᴧᴛᴇ", url="https://t.me/+KtH8HHCPn_JiZmY1",
+                text="ᴜᴘᴅᴧᴛᴇ", url="https://t.me/friends_kiDuniya",
             ),
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏꝛᴛ", url="https://t.me/+Ntz9If3ZVbpjZWQ1",
+                text="sᴜᴘᴘᴏꝛᴛ", url="https://t.me/friends_kiDuniya",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
